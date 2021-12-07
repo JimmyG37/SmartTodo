@@ -12,7 +12,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.9+commit.e5eed63a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"taskCount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/TodoList.sol\":\"TodoList\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/TodoList.sol\":{\"keccak256\":\"0x468e9c58eee93bbb0b58f6624d054ae045ae23e2439c8eee583cdeb8344aff24\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b78aa37cbec6414aebd0edda3fd71389934904e9525a1c3e4fe760be8d0c5a98\",\"dweb:/ipfs/QmZA7KwHMBQuH2fjJw4811JcxRGjcKD9ZMBqM5Vh2j4M2r\"]}},\"version\":1}",
@@ -408,9 +409,17 @@
     "name": "solc",
     "version": "0.8.9+commit.e5eed63a.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x1Cde12bb41F416074A14AF9d0CF41B6aB5Dfd045",
+      "transactionHash": "0x0b94399a298482870f10ffbd68c7dfd7fe8886770fe0d273b58a0cccf5fee441"
+    }
+  },
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-12-07T20:58:32.014Z",
+  "updatedAt": "2021-12-07T21:17:30.444Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
